@@ -2,7 +2,18 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "UST",
 	"patterns": [
-		{ "include": "source.ini" }
+		{ "include": "source.ini" },
+		{ "include": "#sections" }
 	],
+	"repository": {
+		"sections": {
+			"patterns": [
+				{
+					"name": "entity.name.section.ust",
+					"match": "^\\[#(VERSION|SETTING|PREV|NEXT|TRACKEND|\\d{4})\\]"
+				}
+			]
+		}
+	},
 	"scopeName": "source.ust"
 }
