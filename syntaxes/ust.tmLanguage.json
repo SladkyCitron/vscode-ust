@@ -3,30 +3,8 @@
 	"name": "UTAU Sequence Text",
 	"patterns": [
 		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#strings"
+			"include": "source.ini"
 		}
 	],
-	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.ust",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.ust",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.ust",
-					"match": "\\\\."
-				}
-			]
-		}
-	},
-	"scopeName": "source.ini"
+	"scopeName": "source.ust"
 }
