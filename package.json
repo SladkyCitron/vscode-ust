@@ -1,6 +1,6 @@
 {
   "name": "utau-ust",
-  "displayName": "UTAU Sequence Text",
+  "displayName": "UTAU Sequence Text (UST)",
   "description": "Language support for UTAU Sequence Text (UST)",
   "version": "0.0.1",
   "publisher": "Matúš Ollah",
