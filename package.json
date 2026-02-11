@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/MatusOllah/vscode-ust"
   },
+  "icon": "utau.png",
   "license": "MIT",
   "engines": {
     "vscode": "^1.109.0"
