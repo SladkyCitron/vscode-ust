@@ -2,8 +2,8 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "UST",
 	"patterns": [
-		{ "include": "source.ini" },
-		{ "include": "#sections" }
+		{ "include": "#sections" },
+		{ "include": "source.ini" }
 	],
 	"repository": {
 		"sections": {
