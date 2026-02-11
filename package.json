@@ -1,0 +1,25 @@
+{
+  "name": "utau-ust",
+  "displayName": "UST",
+  "description": "Language support for UTAU Sequence Text",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ust",
+      "aliases": ["UTAU Sequence Text", "ust"],
+      "extensions": [".ust"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ust",
+      "scopeName": "source.ini",
+      "path": "./syntaxes/ust.tmLanguage.json"
+    }]
+  }
+}
