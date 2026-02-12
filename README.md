@@ -1,4 +1,4 @@
-# 🎵 UTAU Sequence Text (UST) support for Visual Studio Code
+# 🎵 UTAU Sequence Text (UST) support for VS Code
 
 Syntax highlighting and language support for **UTAU Sequence Text (.ust)** files in **Visual Studio Code**.
 
