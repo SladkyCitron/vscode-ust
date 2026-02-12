@@ -21,7 +21,11 @@
       "id": "ust",
       "aliases": ["UTAU Sequence Text", "UST", "ust"],
       "extensions": [".ust"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "dark": "./ust-icon.png",
+        "light": "./ust-icon.png"
+      }
     }],
     "grammars": [{
       "language": "ust",
